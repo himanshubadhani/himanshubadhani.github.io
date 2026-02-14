@@ -30,11 +30,10 @@ I am a Postdoctoral fellow at IIIT Hyderabad, working under the supervision of D
   <div class="pub-item">
   <strong>{{ paper.title }}</strong><br>
   {{ paper.authors }}<br>
-  {{ paper.venue }} ({{ paper.year }})  <a href="{{ paper.link }}">Link</a>
+  {{ paper.venue }} ({{ paper.year }})  <a href="{{ paper.link }}">Link</a> <br>
   </div>
   
   {% endif %}
-     <br>
 {% endfor %}
 
 {% endfor %}
