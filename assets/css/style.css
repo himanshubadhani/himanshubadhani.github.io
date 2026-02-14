@@ -96,3 +96,30 @@ button:hover {
     background: transparent;
     color: var(--accent);
 }
+
+
+header {
+    position: relative;
+    background: var(--card);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+/* Top-right dark mode toggle */
+.theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: 1px solid var(--accent);
+    background: transparent;
+    color: var(--accent);
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.theme-toggle:hover {
+    background: var(--accent);
+    color: white;
+}
