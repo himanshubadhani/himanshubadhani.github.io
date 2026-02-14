@@ -16,8 +16,29 @@ I am a Postdoctoral fellow at IIIT Hyderabad, working under the supervision of D
 ## Research
 ---
 ## Preprints
-- HB, Dhanuja G. S, and S. Das, Thermodynamic work capacity of quantum information processing, arXiv:2510.23731 [quant-ph] (2025).
-- HB, Dhanuja G. S, and S. Das, Thermodynamics of quantum processes: An operational framework for free energy and reversible athermality, arXiv:2510.12790 [quant-ph] (2025).
+---
+
+## Preprints
+
+{% assign preprint_years = site.data.preprints | map: "year" | uniq | sort | reverse %}
+
+{% for y in preprint_years %}
+### {{ y }}
+
+{% for paper in site.data.preprints %}
+  {% if paper.year == y %}
+  <div class="pub-item">
+  <strong>{{ paper.title }}</strong><br>
+  {{ paper.authors }}<br>
+  {{ paper.archive }} ({{ paper.year }})<br>
+  <a href="{{ paper.abstract }}">Abstract</a> ·
+  <a href="{{ paper.pdf }}">PDF</a>
+  </div>
+  {% endif %}
+{% endfor %}
+
+{% endfor %}
+
   
 ## Pulications
 {% assign years = site.data.publications | map: "year" | uniq | sort | reverse %}
