@@ -179,3 +179,10 @@ body.dark .sun {
 .theme-toggle:hover .icon {
     stroke: white;
 }
+
+.metrics {
+    background: var(--card);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 6px;
+}
