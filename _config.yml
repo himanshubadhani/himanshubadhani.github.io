@@ -1,0 +1,7 @@
+title: "Himanshu Badhani"
+description: "Quantum Information Theory | Quantum Channels | Resource Theories"
+author: "Himanshu Badhani"
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+theme: null
