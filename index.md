@@ -2,16 +2,14 @@
 layout: default
 title: About
 ---
+## About
+
+I am a Postdoctoral fellow at IIIT Hyderabad, working in quantum information theory, with interests in quantum thermodynamics, resource theories, and thermodynamic aspects of quantum processes.
 <div style="text-align: center; margin: 1.5rem 0;">
 <a href="{{ '/assets/cv/CV.pdf' | relative_url }}" download>
 <button>Download CV (PDF)</button>
 </a>
 </div>
-
-## About
-
-I am a Postdoctoral fellow at IIIT Hyderabad, working in quantum information theory, with interests in quantum thermodynamics, resource theories, and thermodynamic aspects of quantum processes.
-
 ---
 
 ## Research
