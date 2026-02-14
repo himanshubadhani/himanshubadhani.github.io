@@ -5,8 +5,7 @@ title: Home
 
 ## About
 
-I am a researcher in quantum information theory, with interests in quantum channels,
-resource theories, entropy measures, and thermodynamic aspects of quantum processes.
+I am a Postdoctoral fellow at IIIT Hyderabad, working in quantum information theory, with interests in quantum thermodynamics, resource theories, and thermodynamic aspects of quantum processes.
 
 ---
 
