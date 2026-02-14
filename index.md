@@ -50,7 +50,7 @@ I am a Postdoctoral fellow at IIIT Hyderabad, working under the supervision of D
 ---
 
 ## Teaching
-
+I have been a tutor for the following courses:
 - Quantum Information Theory by  Dr. Siddhartha Das, Monsoon 2025
 - Introduction to Quantum Information by Dr. C. M. Chandrashekar, Spring 2020
 
