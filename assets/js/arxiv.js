@@ -1,23 +1,27 @@
-const arxivID = "Badhani,_H";
+const arxivID = "Badhani_H";  // change accordingly
 const container = document.getElementById("arxiv-list");
 
-fetch(`https://export.arxiv.org/api/query?search_query=au:${arxivID}&sortBy=submittedDate&sortOrder=descending&max_results=5`)
-  .then(response => response.text())
-  .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(
+    `https://export.arxiv.org/rss/search?search_query=au:${arxivID}`
+)}`)
+  .then(response => response.json())
   .then(data => {
-    const entries = data.querySelectorAll("entry");
+    const parser = new DOMParser();
+    const xml = parser.parseFromString(data.contents, "text/xml");
+    const items = xml.querySelectorAll("item");
+
     container.innerHTML = "";
 
-    entries.forEach(entry => {
-      const title = entry.querySelector("title").textContent;
-      const link = entry.querySelector("id").textContent;
-      const summary = entry.querySelector("summary").textContent;
+    items.forEach(item => {
+      const title = item.querySelector("title").textContent;
+      const link = item.querySelector("link").textContent;
+      const description = item.querySelector("description").textContent;
 
       const div = document.createElement("div");
       div.className = "arxiv-item";
       div.innerHTML = `
         <h3><a href="${link}" target="_blank">${title}</a></h3>
-        <p>${summary.substring(0, 300)}...</p>
+        <p>${description.substring(0, 300)}...</p>
       `;
 
       container.appendChild(div);
