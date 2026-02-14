@@ -12,12 +12,9 @@ I am a Postdoctoral fellow at IIIT Hyderabad, working under the supervision of D
 </a>
 </div>
 ---
-
 ## Research
----
-## Preprints
----
 
+---
 ## Preprints
 
 {% assign preprint_years = site.data.preprints | map: "year" | uniq | sort | reverse %}
