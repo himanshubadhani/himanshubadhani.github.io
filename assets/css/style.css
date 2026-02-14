@@ -190,6 +190,6 @@ body.dark .sun {
 .pub-item {
     background: var(--card);
     padding: 1rem;
-    margin-bottom: 1.5rem;   /* spacing between entries */
+    margin-bottom: 2.5rem;   /* spacing between entries */
     border-radius: 6px;
 }
