@@ -18,7 +18,7 @@ I am a Postdoctoral fellow at IIIT Hyderabad, working under the supervision of D
 ## Preprints
 - HB, Dhanuja G. S, and S. Das, Thermodynamic work capacity of quantum information processing, arXiv:2510.23731 [quant-ph] (2025).
 - HB, Dhanuja G. S, and S. Das, Thermodynamics of quantum processes: An operational framework for free energy and reversible athermality, arXiv:2510.12790 [quant-ph] (2025).
---
+  
 ## Pulications
 - HB, Dhanuja G. S., S. Choudhary, V. Anand, and S. Das. Erasure cost of a quantum process: a thermodynamic meaning of the dynamical min-entropy, \href{https://iopscience.iop.org/article/10.1088/2058-9565/ae34e2}{\textit{Quantum Sci. Technol.} \textbf{11} 015038}, (2026).
 - HB, C. M. Chandrashekar. Reduced dynamics in quasi-Hermitian systems, \href{https://www.sciencedirect.com/science/article/abs/pii/S0003491625003860}{\textit{Annals of Physics}, Volume 484, 170304}, (2026).
