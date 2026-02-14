@@ -1,4 +1,4 @@
-const arxivID = "Badhani,H";
+const arxivID = "Badhani,_H";
 const container = document.getElementById("arxiv-list");
 
 fetch(`https://export.arxiv.org/api/query?search_query=au:${arxivID}&sortBy=submittedDate&sortOrder=descending&max_results=5`)
