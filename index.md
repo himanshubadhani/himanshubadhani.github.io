@@ -21,7 +21,6 @@ I am a Postdoctoral fellow at IIIT Hyderabad, working under the supervision of D
 
 
 {% for paper in site.data.preprints %}
-  {% if paper.year == y %}
   <div class="pub-item">
   <strong>{{ paper.title }}</strong><br>
   {{ paper.authors }}<br>
