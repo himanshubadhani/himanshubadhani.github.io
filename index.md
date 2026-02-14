@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: About
 ---
 
 ## About
@@ -11,23 +11,19 @@ I am a Postdoctoral fellow at IIIT Hyderabad, working in quantum information the
 
 ## Research
 
-My work focuses on
 ---
 
-## Publications
 {% include arxiv.html %}
 
 ---
 
 ## Teaching
 
-- Quantum Information Theory
-- Linear Algebra for Physicists
-- Quantum Thermodynamics
+- Quantum Information Theory by  Dr. Siddhartha Das, Monsoon 2025
+- Introduction to Quantum Information by Dr. C. M. Chandrashekar, Spring 2020
 
 ---
 
 ## Contact
 
-Email: your.email@domain.com  
-GitHub: https://github.com/yourusername
+Email: himanshubadhani@gmail.com  
