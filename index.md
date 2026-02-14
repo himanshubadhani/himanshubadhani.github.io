@@ -31,6 +31,7 @@ $$
 ---
 
 ## Publications
+{% include arxiv.html %}
 
 1. *Title*, Journal (Year)
 2. *Title*, arXiv:xxxx.xxxxx
