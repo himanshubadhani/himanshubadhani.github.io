@@ -2,6 +2,11 @@
 layout: default
 title: About
 ---
+<div style="text-align: center; margin: 1.5rem 0;">
+<a href="{{ '/assets/cv/CV.pdf' | relative_url }}" download>
+<button>Download CV (PDF)</button>
+</a>
+</div>
 
 ## About
 
