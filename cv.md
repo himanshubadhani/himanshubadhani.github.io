@@ -12,10 +12,3 @@ A current version of my CV is available below.
 </a>
 
 ---
-
-### Research Interests
-
-- Quantum channels
-- Resource theories
-- Entropy measures
-- Thermodynamic aspects of quantum processes
