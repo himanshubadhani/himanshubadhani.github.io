@@ -19,8 +19,6 @@ I am a Postdoctoral fellow at IIIT Hyderabad, working under the supervision of D
 
 {% assign preprint_years = site.data.preprints | map: "year" | uniq | sort | reverse %}
 
-{% for y in preprint_years %}
-### {{ y }}
 
 {% for paper in site.data.preprints %}
   {% if paper.year == y %}
@@ -32,7 +30,6 @@ I am a Postdoctoral fellow at IIIT Hyderabad, working under the supervision of D
   <a href="{{ paper.pdf }}">PDF</a>
   </div>
   {% endif %}
-{% endfor %}
 
 {% endfor %}
 
