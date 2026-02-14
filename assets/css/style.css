@@ -123,3 +123,59 @@ header {
     background: var(--accent);
     color: white;
 }
+
+
+header {
+    position: relative;
+    background: var(--card);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+/* Toggle positioning */
+.theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px solid var(--accent);
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+}
+
+/* SVG icons */
+.theme-toggle .icon {
+    width: 20px;
+    height: 20px;
+    stroke: var(--accent);
+    fill: none;
+    stroke-width: 2;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Hide moon in light mode */
+body:not(.dark) .moon {
+    opacity: 0;
+    position: absolute;
+}
+
+/* Hide sun in dark mode */
+body.dark .sun {
+    opacity: 0;
+    position: absolute;
+}
+
+/* Subtle hover */
+.theme-toggle:hover {
+    background: var(--accent);
+}
+
+.theme-toggle:hover .icon {
+    stroke: white;
+}
