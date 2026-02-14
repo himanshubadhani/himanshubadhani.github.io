@@ -16,22 +16,17 @@ I am a Postdoctoral fellow at IIIT Hyderabad, working under the supervision of D
 
 ---
 ## Preprints
+{% assign sorted_preprints = site.data.preprints | sort: "year" | reverse %}
 
-{% assign preprint_years = site.data.preprints | map: "year" | uniq | sort | reverse %}
-
-
-{% for paper in site.data.preprints %}
-  <div class="pub-item">
+{% for paper in sorted_preprints %}
+<div class="pub-item preprint">
   <strong>{{ paper.title }}</strong><br>
   {{ paper.authors }}<br>
   {{ paper.archive }} ({{ paper.year }})<br>
   <a href="{{ paper.abstract }}">Abstract</a> ·
   <a href="{{ paper.pdf }}">PDF</a>
-  </div>
-  {% endif %}
-
+</div>
 {% endfor %}
-
   
 ## Pulications
 {% assign years = site.data.publications | map: "year" | uniq | sort | reverse %}
