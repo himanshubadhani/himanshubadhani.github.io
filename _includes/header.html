@@ -2,10 +2,22 @@
     <div class="container">
         <h1>{{ site.title }}</h1>
         <p>{{ site.description }}</p>
+
         <nav>
             <a href="{{ '/' | relative_url }}">Home</a>
+            <a href="#research">Research</a>
+            <a href="#publications">Publications</a>
             <a href="{{ '/blog' | relative_url }}">Blog</a>
+
+            <!-- CV Button -->
+            <a href="{{ '/assets/cv/CV.pdf' | relative_url }}"
+               class="cv-button"
+               download
+               target="_blank">
+               CV
+            </a>
         </nav>
+
         <button id="theme-toggle">Toggle Dark Mode</button>
     </div>
 </header>
