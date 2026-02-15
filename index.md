@@ -14,6 +14,7 @@ I am a Postdoctoral fellow at IIIT Hyderabad, working under the supervision of D
 - Thermodynamics of processes
 - Dividing a system
 - Information revival and non-Markovianity
+
 ---
 
 ## Teaching
