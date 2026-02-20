@@ -5,9 +5,7 @@ title: Technical Notes
 
 I intend to put my views on academia and other random things I am interested in.
 
-For now, check out my photography: 
-<div class="external-links">
-<strong>Photography:</strong>
+For now, check out my photography: <div class="external-links">
 <a href="https://www.flickr.com/photos/184604166@N08/" target="_blank">
 View on Flickr
 </a>
