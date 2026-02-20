@@ -3,7 +3,15 @@ layout: default
 title: Technical Notes
 ---
 
-## Technical Notes
+I intend to put my views on academia and other random things I am interested in.
+
+For now, check out my photography: 
+<div class="external-links">
+<strong>Photography:</strong>
+<a href="https://www.flickr.com/photos/184604166@N08/" target="_blank">
+View on Flickr
+</a>
+</div>
 
 {% for post in site.posts %}
   <div class="blog-item">
