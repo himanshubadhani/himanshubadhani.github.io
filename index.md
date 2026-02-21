@@ -14,7 +14,7 @@ I completed my Ph.D. at IMSc Chennai in 2025, where I was advised by <a href="ht
 ---
 ## Research
 - Thermodynamics of processes
-- Dividing a system: Find my PhD thesis  <a href="https://www.imsc.res.in/xmlui/handle/123456789/901" target="blank">here</a>a
+- Dividing a system: Find my PhD thesis  <a href="https://www.imsc.res.in/xmlui/handle/123456789/901" target="blank">here</a>
 - Information revival and non-Markovianity
 
 ---
