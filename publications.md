@@ -4,6 +4,14 @@ title: Publications
 ---
 ## Preprints
 
+<div class="scholar-button-container">
+  <a href="https://scholar.google.com/citations?user=2b1W1P0AAAAJ&hl=en"
+     class="scholar-button"
+     target="_blank">
+     Google Scholar Profile
+  </a>
+</div>
+
 {% assign sorted_preprints = site.data.preprints | sort: "year" | reverse %}
 
 {% for paper in sorted_preprints %}
