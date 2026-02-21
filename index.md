@@ -2,7 +2,7 @@
 layout: default
 title: About
 ---
-I am a Postdoctoral fellow at IIIT Hyderabad, working under the supervision of Dr. Siddhartha Das. I am fascinated by quantum physics and its potential in transforming the technology of the future. I work in quantum information theory, with interests in quantum thermodynamics, resource theories, and thermodynamic aspects of quantum processes. 
+I am a Postdoctoral fellow at IIIT Hyderabad, working under the supervision of <a href="https://www.iiit.ac.in/faculty/~das.seed" target="_blank">Dr. Siddhartha Das</a>, I am fascinated by quantum physics and its potential in transforming the technology of the future. I work in quantum information theory, with interests in quantum thermodynamics, resource theories, and thermodynamic aspects of quantum processes. 
 
 I completed my Ph.D. at IMSc Chennai in 2025, where I was advised by <a href="http://iap.iisc.ac.in/~chandracm/" target="_blank">Dr. C. M. Chandrashekar</a> and worked closely with Dr. Sibasish Ghosh. Before joining the doctoral program, I spent a year ('16-'17) in HRI Allahabad as a long-term visiting student, working with Dr. Dileep Jatkar on the aspects of de Sitter Cosmology. Before that, I received my BS-MS dual degree from IISER Pune. I was advised by Dr. Alok Laddha (CMI Chennai) for my Master's thesis on quantum field theory in de Sitter spacetime.
 
@@ -14,7 +14,7 @@ I completed my Ph.D. at IMSc Chennai in 2025, where I was advised by <a href="ht
 ---
 ## Research
 - Thermodynamics of processes
-- Dividing a system
+- Dividing a system: Find my PhD thesis  <a href="https://www.imsc.res.in/xmlui/handle/123456789/901" target="blank">here</a>a
 - Information revival and non-Markovianity
 
 ---
