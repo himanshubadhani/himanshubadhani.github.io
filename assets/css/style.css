@@ -198,8 +198,14 @@ body.dark .sun {
     margin: 1rem 0 2rem 0;
 }
 
+.scholar-button-container {
+    margin: 1rem 0 2rem 0;
+}
+
 .scholar-button {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     padding: 6px 14px;
     border: 1px solid var(--accent);
     border-radius: 4px;
@@ -213,4 +219,15 @@ body.dark .sun {
 .scholar-button:hover {
     background: var(--accent);
     color: white;
+}
+
+.scholar-icon {
+    width: 18px;
+    height: 18px;
+    fill: var(--accent);
+    transition: 0.2s ease;
+}
+
+.scholar-button:hover .scholar-icon {
+    fill: white;
 }
