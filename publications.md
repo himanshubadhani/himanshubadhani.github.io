@@ -4,15 +4,17 @@ title: Publications
 ---
 <div class="scholar-button-container">
   <a href="https://scholar.google.com/citations?user=2b1W1P0AAAAJ&hl=en"
-     class="scholar-button"
+     class="scholar-button scholar-multicolor"
      target="_blank">
 
     <svg class="scholar-icon" viewBox="0 0 24 24">
-      <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/>
-      <path d="M5 13.18V17c0 2.21 3.58 4 7 4s7-1.79 7-4v-3.82l-7 3.82-7-3.82z"/>
+      <!-- Mortarboard -->
+      <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3z"
+            fill="#4285F4"/>
+      <!-- Book/Base -->
+      <path d="M5 13.5V17c0 2.21 3.58 4 7 4s7-1.79 7-4v-3.5l-7 3.8-7-3.8z"
+            fill="#FBBC05"/>
     </svg>
-
-    Google Scholar
   </a>
 </div>
 
