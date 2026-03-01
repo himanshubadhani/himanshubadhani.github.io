@@ -5,7 +5,7 @@ title: About
 <div class="about-container">
 
   <div class="about-image">
-    <img src="{{ '/assets/images/DSC_1024.jpg' | relative_url }}">
+    <img src="{{ '/assets/images/DSC_1024.jpg' | relative_url }}" alt="Himanshu">
   </div>
 
   <div class="about-text">
