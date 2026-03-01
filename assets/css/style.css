@@ -301,12 +301,12 @@ body.dark .sun {
 
 /* CV button under image */
 .profile-cv {
-    width: 100%;
+    width: 80%;
     text-align: center;
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     .about-container {
         flex-direction: column;
         align-items: center;
