@@ -279,3 +279,36 @@ body.dark .sun {
         text-align: left;
     }
 }
+
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 1.5rem;
+}
+
+.about-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-image img {
+    width: 220px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+/* CV button under image */
+.profile-cv {
+    width: 100%;
+    text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
