@@ -16,7 +16,7 @@ title: About
 
   <div class="about-text">
     <p>
-     I am a Postdoctoral fellow at IIIT Hyderabad, working under the supervision of <a href="https://www.iiit.ac.in/faculty/~das.seed" target="_blank">Dr. Siddhartha Das</a>, I am fascinated by quantum physics and its potential in transforming the technology of the future. I work in quantum information theory, with interests in quantum thermodynamics, resource theories, and thermodynamic aspects of quantum processes.
+     I am a Postdoctoral fellow at IIIT Hyderabad, working under the supervision of <a href="https://www.iiit.ac.in/faculty/~das.seed" target="_blank">Dr. Siddhartha Das</a>. I work in quantum information theory, with interests in quantum thermodynamics, resource theories, and thermodynamic aspects of quantum processes.
     </p>
 
     <p>
