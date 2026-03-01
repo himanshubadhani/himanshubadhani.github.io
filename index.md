@@ -5,7 +5,7 @@ title: About
 <div class="about-container">
 
   <div class="about-image">
-    <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Your Name">
+    <img src="{{ '/assets/images/DSC_1024.jpg' | relative_url }}">
   </div>
 
   <div class="about-text">
