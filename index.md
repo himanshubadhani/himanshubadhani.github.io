@@ -6,6 +6,12 @@ title: About
 
   <div class="about-image">
     <img src="{{ '/assets/images/profile.JPG' | relative_url }}" alt=" ">
+    <a href="{{ '/assets/cv/CV.pdf' | relative_url }}"
+       class="cv-button profile-cv"
+       download
+       target="_blank">
+       Download CV
+    </a>
   </div>
 
   <div class="about-text">
@@ -18,12 +24,6 @@ title: About
     </p>
   </div>
 
-</div>
- 
-<div style="text-align: center; margin: 1.5rem 0;">
-<a href="{{ '/assets/cv/CV_Himanshu.pdf' | relative_url }}" download>
-<button>Download CV (PDF)</button>
-</a>
 </div>
 ---
 ## Research
