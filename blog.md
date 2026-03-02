@@ -5,12 +5,9 @@ title: Technical Notes
 
 Here I present occasional reflections on academia, research culture, and other topics of interest.
 
-Nothing for now :) Btw, check out my photography here: 
-<div class="external-links">
-<a href="https://www.flickr.com/photos/184604166@N08/" target="_blank">
-View on Flickr
-</a>
-</div>
+Nothing for now :)
+
+Check out my photography <a href="https://www.flickr.com/photos/184604166@N08/" target="_blank">here </a>.
 
 {% for post in site.posts %}
   <div class="blog-item">
