@@ -41,7 +41,7 @@ I have been a tutor for the following courses:
 
 ## Scholarships and awards
 
-- Visvesvaraya Postdoctoral fellowship, Ministry of Electronics and Information Technology, Gov. of India.
+- Visvesvaraya Postdoctoral fellowship 2025-2026, Ministry of Electronics and Information Technology, Gov. of India.
 - INSPIRE undergraduate fellowship 2011-2016, Department of Science and Technology, Gov. of India.
 
 ---
