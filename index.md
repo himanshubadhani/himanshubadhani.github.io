@@ -38,6 +38,12 @@ I have been a tutor for the following courses:
 - Introduction to Quantum Information for first-year PhD students by Dr. C. M. Chandrashekar, Spring 2020
 
 ---
+### Quantum Meets
+
+<a href="https://quantum-meets.github.io/" target="blank">Quantum Meets</a> is a series of talks/seminars/tutorials/colloquia in the field of quantum information. 
+
+Check out the <a href="https://www.youtube.com/channel/UCZqeOxEIisIIscw2wcxIr2g" target="blank">YouTube channel</a>.
+---
 
 ## Scholarships and awards
 
