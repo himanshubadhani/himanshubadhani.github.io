@@ -20,17 +20,6 @@ body.dark {
     --link-hover: #bfdbfe;
 }
 
-a {
-    color: var(--link-color);
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-a:hover {
-    color: var(--link-hover);
-    text-decoration: underline;
-}
-
 body {
     margin: 0;
     font-family: "Georgia", serif;
@@ -330,4 +319,15 @@ body.dark .sun {
         flex-direction: column;
         align-items: center;
     }
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
 }
