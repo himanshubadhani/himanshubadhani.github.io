@@ -28,6 +28,13 @@ title: About
 ---
 ## Research
 - Thermodynamics of processes: Quantum thermodynamics studies how energy and information behave in a quantum system, especially when the system is manipulated away from the equilibrium state. My work extends these ideas from quantum states to quantum channels, where we ask what the energetic costs are of manipulating a quantum process. We have developed operational definitions of free energy and erasure cost for quantum channels, showing how information-theoretic quantities such as channel entropy and conditional channel entropy directly determine the work required to create, erase, or transform noisy processes. This provides a principled framework for quantifying irreversibility and resource consumption in realistic, noisy quantum devices, and helps clarify how thermodynamic constraints limit quantum information processing.
+Here is a presentation I gave at CEQIP 2026 on one of these works: 
+<a href="{{ '/assets/presentations/channel free energy.pdf' | relative_url }}"
+     class="presentation-button"
+     target="_blank"
+     rel="noopener noreferrer">
+     View Presentation ↗
+  </a>
 - Non-Hermitian physics: Quantum systems described by gain and loss of amplitudes are described by effective Hamiltonians that are not Hermitian in the usual sense. While standard quantum mechanics requires Hermitian operators to guarantee real energies and unitary evolution, quasi-Hermitian Hamiltonians can still have entirely real spectra. We have developed methods to define subsystems and reduced dynamics in such settings, where the usual tensor-product structure of Hilbert space can break down, and analyzed how gain–loss mechanisms modify entanglement, locality, and memory effects. By exploiting the mathematical equivalence between certain non-Hermitian and Hermitian descriptions, I am currently interested in knowing whether open-system implementations can offer advantages in Hamiltonian simulation. Find my PhD thesis on this topic  <a href="https://www.imsc.res.in/xmlui/handle/123456789/901" target="blank">here</a>
 
 ---
