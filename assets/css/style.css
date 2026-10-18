@@ -1,15 +1,34 @@
+/* Light mode */
 :root {
     --bg: #ffffff;
     --text: #111111;
     --accent: #003366;
     --card: #f4f6f8;
+
+    --link-color: #0056b3;
+    --link-hover: #003366;
 }
 
+/* Dark mode */
 body.dark {
     --bg: #0f172a;
     --text: #e2e8f0;
     --accent: #60a5fa;
     --card: #1e293b;
+
+    --link-color: #93c5fd;
+    --link-hover: #bfdbfe;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
 }
 
 body {
