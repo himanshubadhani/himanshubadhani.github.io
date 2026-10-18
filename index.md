@@ -36,7 +36,9 @@ Here are the slides for a recent talk I gave at <a href="https://ceqip.eu/2026/"
      rel="noopener noreferrer">
      Free energy of a quantum channel ↗
   </a>
-- Non-Hermitian physics: Quantum systems described by gain and loss of amplitudes are described by effective Hamiltonians that are not Hermitian in the usual sense. While standard quantum mechanics requires Hermitian operators to guarantee real energies and unitary evolution, quasi-Hermitian Hamiltonians can still have entirely real spectra. We have developed methods to define subsystems and reduced dynamics in such settings, where the usual tensor-product structure of Hilbert space can break down, and analyzed how gain–loss mechanisms modify entanglement, locality, and memory effects. By exploiting the mathematical equivalence between certain non-Hermitian and Hermitian descriptions, I am currently interested in knowing whether open-system implementations can offer advantages in Hamiltonian simulation. Find my PhD thesis on this topic  <a href="https://www.imsc.res.in/xmlui/handle/123456789/901" target="blank">here</a>
+- Non-Hermitian physics: Quantum systems described by gain and loss of amplitudes are described by effective Hamiltonians that are not Hermitian in the usual sense. While standard quantum mechanics requires Hermitian operators to guarantee real energies and unitary evolution, quasi-Hermitian Hamiltonians can still have entirely real spectra. We have developed methods to define subsystems and reduced dynamics in such settings, where the usual tensor-product structure of Hilbert space can break down, and analyzed how gain–loss mechanisms modify entanglement, locality, and memory effects. By exploiting the mathematical equivalence between certain non-Hermitian and Hermitian descriptions, I am currently interested in knowing whether open-system implementations can offer advantages in Hamiltonian simulation.
+
+Find my PhD thesis on this topic  <a href="https://www.imsc.res.in/xmlui/handle/123456789/901" target="blank">here</a>
 
 ---
 
