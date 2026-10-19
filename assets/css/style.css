@@ -331,3 +331,103 @@ a:hover {
     color: var(--link-hover);
     text-decoration: underline;
 }
+
+/* General responsive layout */
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
+/* Text wrapping */
+p, li {
+    overflow-wrap: break-word;
+    line-height: 1.7;
+}
+
+/* Prevent long links from overflowing */
+a {
+    overflow-wrap: anywhere;
+}
+
+/* Responsive images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* LAPTOP AND DESKTOP */
+@media (min-width: 769px) {
+
+    main {
+        max-width: 900px;
+        font-size: 17px;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .about-image {
+        flex: 0 0 220px;
+    }
+
+    .about-text {
+        flex: 1;
+        min-width: 0;
+    }
+}
+
+/* MOBILE PHONES */
+@media (max-width: 768px) {
+
+    main {
+        width: 100%;
+        padding: 0 18px;
+        font-size: 15px;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .about-image img {
+        width: 180px;
+        max-width: 100%;
+    }
+
+    .about-text {
+        width: 100%;
+        min-width: 0;
+        text-align: left;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+}
+
+/* Publication entries */
+.pub-item {
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+}
+
+/* MathJax equations */
+mjx-container[display="true"] {
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
